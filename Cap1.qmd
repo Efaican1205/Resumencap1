@@ -1,0 +1,206 @@
+---
+title: "Capitulo1evy"
+format: pdf
+editor: visual
+---
+
+## Capitulo 1
+
+Es una esencia el aprendizaje ya que ocupa diversos algoritmos en donde la información es procesable, en donde el aprendizaje automático va adaptándose con la era actual.
+
+-   El lenguaje de R ofrece un conjunto de herramientas potente que nos ayudan a encontrar información sobre los datos.
+
+#### Existen diferentes etapas en donde comienza desde:
+
+-   Juegos simples (tres en raya - ajedrez)
+
+Pero fueron avanzando y diseñaron controles de:
+
+-   Comunicaciones - drones militares
+
+Cada vez la evolución de las máquinas da un giro más fuerte, en donde las computadoras cada vez se vuelven más conscientes es así que los diferentes aprendizajes pueden verse representados por la Inteligencia artificial y por los diferentes medios de comunicación, es importante conocer que se aprenderá diversos campos como:
+
+-   Los orígenes y las aplicaciones prácticas del aprendizaje automático
+
+-   Cómo las computadoras definen y representan el conocimiento
+
+-   Los conceptos básicos que diferencian los enfoques de aprendizaje automático.
+
+#### **Los orígenes del aprendizaje automático**
+
+Se denominan sensores del cuerpo humano a los ojos, oídos, nariz, lengua y a los nervios en donde van saltando continuamente los diversos datos que nuestro cerebro los traduce en olores, sabores, texturas, imágenes e incluso el usando el lenguaje tenemos diversas experiencias que podemos compartir con otros. Los primeros bases de datos que fueron registrados fue la información del entorno observable en donde el ser humano primero observaba y luego registraba la observación en donde cada vez fueron automatizadas y sistemáticamente computarizadas.
+
+La invención de los diversos sensores electrónicos ha contribuido con gran riqueza a los datos registrados en donde tienen especialidad de probar, oler, ver e incluso analizar siendo de Gran beneficio para la sociedad. Poco a poco la sociedad ha ido entrando en una era que se le denomina Big Data en donde las máquinas procesan directamente gran parte de la información parte desde tomar diferentes decisiones dándole sentido a todo. El campo de estudio nos ha brindado un algoritmo de información que nos permite transformar datos en acciones inteligentes a lo que cada vez un estímulo en el desarrollo se basan en métodos estadísticos para poderlos analizar con llevados como conjunto de datos y lo que nos permite recopilar cada vez datos interesantes.
+
+Existe una pregunta que es conveninete analizarla y comprenderla: **¿Cómo aprenden las máquinas?** El científico informático M. Mitchell denomina a una máquina en base a su experiencia y su rendimiento que cada vez deben ir mejorando en torno a las experiencias similares en el futuro en donde transforman los datos en conocimiento procesable, en donde se divide en tres componentes esenciales:
+
++---------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------------------------------------------------------+
+| Entrada de datos                                                                                                                      | Abstracción                                                    | Generalización                                                |
++=======================================================================================================================================+================================================================+===============================================================+
+| Utiliza la observación, el almacenamiento de memoria y el recuerdo para proporcionar una base fáctica para un razonamiento posterior. | Implica la traducción de datos en representaciones más amplias | Utiliza datos abstractos para formar una base para la acción. |
++---------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------------------------------------------------------+
+
+*Los tres componentes del aprendizaje están inextricablemente vinculados*
+
+Las estrategias de aprendizaje comúnmente utilizadas para crear un esquema o un mapa conceptual son similares a cómo una máquina realiza la abstracción del conocimiento.
+
+#### 
+
+```         
+                                            **Abstracción y representación del conocimiento**
+```
+
+Existen conexiones abstractas que son la base de la representación del conocimiento en donde la formación de estructuras lógicas ayudan a convertir la información sensorial en bruto en una percepción significativa que durante el proceso de representación del conocimiento, la computadora resume las entradas sin procesar en un modelo que pódemos representarlo en varios modelos como:
+
+• Ecuaciones • Diagramas como árboles y gráficos • Reglas lógicas if/else • Agrupaciones de datos conocidas como clústeres
+
+El proceso de ajustar un modelo particular a un conjunto de datos se conoce como capacitación en donde el proceso de aprendizaje no termina con el paso de abstracción de datos, en cambio generaliza el conocimiento a datos futuros considerando que el aprendizaje implica una especie de razonamiento inductivo que se transformado en una forma abstracta y que resume la información original.
+
+-   Es importante tener en cuenta que el modelo en sí mismo no proporciona datos adicionales, aunque a veces es interesante por sí solo.
+
+La mayoría de los modelos no darán como resultado el desarrollo de teorías que sacudirán el pensamiento científico durante siglos. Aún así, su modelo podría dar como resultado el descubrimiento de relaciones no vistas previamente entre los datos.
+
+#### 
+
+```         
+                                                            **Generalización**
+```
+
+El términogeneralizacióndescribe el proceso de convertir el conocimiento abstracto en una forma que se puede utilizar para la acción. La generalización es un proceso algo vago que es un poco difícil de describir.
+
+Ejemplo:
+
++------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ALGORITMO                                                                                                                          | Heurística                                                                                                                                             |
++====================================================================================================================================+========================================================================================================================================================+
+| ^`Se utiliza aproximaciones y otrasreglas generales.`^                                                                             | ^`Se pretende encontrar información útil en un gran conjunto de datos.`^                                                                               |
++------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ^`Los seres humanos utilizan rutinariamente las heurísticas para generalizar rápidamente la experiencia a los nuevos escenarios.`^ | `Se utiliza el instinto para tomar una decisión rápida antes de evaluar completamente las circunstancias, usando intuitivamente la heurística mental.` |
++------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| `Puede dar lugar conclusiones ilógicas y erróneas.`                                                                                | `Si las conclusiones son sistemáticamente imprecisas, se dice que el algoritmo tiene una inclinación.`                                                 |
++------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+**Por ejemplo:**
+
+Suponga que un algoritmo de aprendizaje automático nos permita identificar caras y al encontrar dos círculos u ojos, colocados uno al lado del otro sobre una línea para la boca. Entonces, el algoritmo podría tener problemas con las caras que no se ajustan a su modelo o estar sesgado contra ellas. Esto puede incluir rostros con anteojos, girados en ángulo, mirando de lado o con tonos de piel más oscuros.
+
+-   De manera similar, podría estar sesgado hacia rostros con colores de ojos más claros u otras características que no se ajusten a su comprensión del mundo.
+
+    ![](%22identicar%20caras%22){width="Infinity" height="10"} ![](imagen%201.jpg)
+
+**Evaluar el éxito del aprendizaje**
+
+El sesgo es un mal necesario asociado con el proceso de abstracción y generalización inherente a cualquier tarea de aprendizaje automático. Cada alumno tiene sus debilidades y está sesgado de una manera particular; no hay un modelo único para gobernarlos a todos.
+
+-   Una vez que un modelo ha sido entrenado en un conjunto de datos inicial, el modelo se prueba en un nuevo conjunto de datos y se juzga en qué medida su caracterización de los datos de entrenamiento se generaliza a los nuevos datos. Vale la pena señalar que es extremadamente raro que un modelo generalice perfectamente todos los casos imprevistos.
+
+Los datos ruidosos son causados por eventos aparentemente aleatorios, como:
+
+-   Error de medición debido a sensores imprecisos que a veces suman o restan un bit de la lectura
+
+-   Problemas con los datos de informes, como que los encuestados informen respuestas aleatorias a las preguntas de la encuesta para terminar más rápido.
+
+-   Errores causados cuando los datos se registran incorrectamente, incluidos valores faltantes, nulos, truncados, codificados incorrectamente o dañados.
+
+#### **Pasos para aplicar el aprendizaje automático a sus datos**
+
++----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pasos                                        | Información                                                                                                                                                                                                                             |
++==============================================+=========================================================================================================================================================================================================================================+
+| 1.  Recolectando datos:                      | Los datos estén escritos en papel, registrados en archivos de texto y hojas de cálculo, o almacenados en una base de datos SQL, deberá recopilarlos en un formato electrónico adecuado para el análisis.                                |
++----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.  Exploración y preparación de los datos.: | La calidad de cualquier proyecto de aprendizaje automático se basa en gran medida en la calidad de los datos que utiliza. Este paso en el proceso de aprendizaje automático tiende a requerir una gran cantidad de intervención humana. |
++----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.  Entrenamiento de un modelo en los datos: | Los datos hayan sido preparados para el análisis, es probable que tenga una idea de lo que espera aprender de los datos.                                                                                                                |
++----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.  Evaluación del rendimiento del modelo:   | Debido a que cada modelo de aprendizaje automático da como resultado una solución sesgada al problema de aprendizaje, es importante evaluar qué tan bien aprendió el algoritmo a partir de su experiencia.                              |
++----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.  Mejora del rendimiento del modelo:       | Se necesita un mejor rendimiento, se hace necesario utilizar estrategias más avanzadas para aumentar el rendimiento del modelo.                                                                                                         |
++----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Después de completar estos pasos, si el modelo parece estar funcionando satisfactoriamente, se puede implementar para la tarea prevista. Según sea el caso, puede utilizar su modelo para proporcionar datos de puntuación para predicciones.
+
+**Elegir un algoritmo de aprendizaje automático** La elección de un algoritmo de aprendizaje automático depende en gran medida del tipo de datos que está analizando y de la tarea propuesta en cuestión, a menudo es útil pensar en este proceso mientras recopila, explora y limpia sus datos.
+
+**Pensando en los datos de entrada** Todos los algoritmos de aprendizaje automático requieren datos de entrenamiento de entrada. El formato exacto puede diferir, pero en su forma más básica, los datos de entrada toman la forma de ejemplos y características.
+
+-   La unidad de observación tiene la forma de transacciones, personas, puntos de tiempo, regiones geográficas o medidas.
+
+-   Otras posibilidades incluyen combinaciones de estos, como años de persona, que denotarían casos en los que se realiza un seguimiento de la misma persona en varios puntos de tiempo.
+
+-   Las característica son un atributo de un ejemplo, que puede ser útil para aprender el concepto deseado.
+
+    **Pensando en los tipos de algoritmos de aprendizaje automático**
+
+    Los algoritmos de aprendizaje automático se pueden dividir en dos grupos principales:
+
+-   Estudiantes supervisados que se usan para construir modelos predictivos y estudiantes no supervisados que se usan para construir modelos descriptivos.
+
+-   El tipo que necesitará usar depende de la tarea de aprendizaje que espera lograr.
+
+    #### 
+
+    ```         
+                                                            **Modelo predictivo**
+    ```
+
+    Se usa para tareas que involucran, como su nombre lo indica, la predicción de un valor usando otros valores en el conjunto de datos. El algoritmo de aprendizaje intenta descubrir y modelar la relación entre los objetivo que se predice y las otras características.
+
+-   La característica objetivo que se va a predecir es una característica categórica conocida como clase y se divide en categorías llamadasniveles.
+
+-   Una clase puede tener dos o más niveles, y los niveles no tienen por qué ser necesariamente ordinales. Debido a que la clasificación se usa tanto en el aprendizaje automático, existen muchos tipos de algoritmos en torno a la clasificación.
+
+```         
+
+                                Modelo descriptivo
+
+Se utiliza para tareas que se beneficiarían de la información obtenida al resumir datos de formas nuevas e interesantes. A diferencia de los modelos predictivos que predicen un objetivo de interés; en un modelo descriptivo, ninguna característica es más importante que otra. De hecho, debido a que no hay un objetivo para aprender, el proceso de entrenamiento de un modelo descriptivo se llama aprendizaje sin supervisión.
+```
+
+-   La tarea de modelado descriptivo de dividir un conjunto de datos en grupos homogéneos se llama agrupamiento. Esto a veces se usa para el análisis de segmentación que identifica grupos de personas con información similar de compras, donaciones o demográfica para que las campañas publicitarias se puedan adaptar a audiencias particulares.
+
+    #### 
+
+    ```         
+                                               **Uso de R para el aprendizaje automático**
+    ```
+
+    Muchos de los algoritmos necesarios para el aprendizaje automático en R no se incluyen como parte de la instalación básica. Gracias a que R es un software gratuito de código abierto, no hay cargo adicional por esta funcionalidad. Una gran comunidad de expertos que contribuyeron al software agregaron los algoritmos necesarios para el aprendizaje automático a la base R. Una colección de funciones de R que se pueden compartir entre los usuarios se denomina paquete. Existen paquetes gratuitos para cada uno de los algoritmos de aprendizaje automático que se tratan en este libro.
+
+    #### 
+
+    ```         
+                                                     **Instalación de un paquete R**
+    ```
+
+-   La forma más directa de instalar un paquete es a través de la función instalar.paquetes().
+
+-   Para instalar el R Weka paquete, en el símbolo del sistema R simplemente escriba:
+
+    \> install.packages("RWeka")
+
+-   R luego se conectará a CRAN y se descargará el paquete en el formato correcto para su sistema operativo. Algunos paquetes como R Weka requieren que se instalen paquetes adicionales antes de que puedan usarse (estos se denominan dependencias). De manera predeterminada, el instalador descargará e instalará automáticamente cualquier dependencia.
+
+-   Las opciones de instalación predeterminadas son apropiadas para la mayoría de los sistemas. Sin embargo, en algunos casos, es posible que desee instalar un paquete en otra ubicación
+
+    \> install.packages("RWeka", lib="/path/to/library")
+
+-   La función de instalación también proporciona opciones adicionales para instalar desde un archivo local, instalar desde la fuente o usar versiones experimentales. Puede leer acerca de estas opciones en el archivo de ayuda usando el siguiente comando:
+
+    \> ?install.packages
+
+    ### **Conclusión del capitulo 1**
+
+    El aprendizaje automático se originó en la intersección de las estadísticas, la ciencia de bases de datos y la informática. Es una herramienta poderosa, capaz de encontrar información procesable en grandes cantidades de datos. Aún así, se debe tener precaución para evitar abusos comunes del aprendizaje automático en el mundo real.
+
+-   En términos conceptuales, el aprendizaje implica la abstracción de datos en una representación estructurada y la generalización de esta estructura en acción.
+
+-   En términos más prácticos, un aprendiz automático utiliza datos que contienen ejemplos y características del concepto que se va a aprender.
+
+-   Entre las muchas opciones, los algoritmos de aprendizaje automático se eligen en función de los datos de entrada y la tarea de aprendizaje.
+
+-   ~*R proporciona soporte para el aprendizaje automático en forma de paquetes creados por la comunidad.*~
+
+-   ~*Estas potentes herramientas se pueden descargar gratis, pero es necesario instalarlas antes de poder usarlas.*~
+
+Aqui se termina el Cap 1
